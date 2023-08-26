@@ -23,7 +23,7 @@ function SideNav() {
         {user ? (
           <>
             <li>
-              <Link href={`/profles/${user.id}`}>
+              <Link href={`/profiles/${user.id}`}>
                 <IconHoverEffect>
                   <span className="flex items-center gap-2">
                     <VscAccount className="h-8 w-8" />
